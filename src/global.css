@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black-: #1E1E1E;
+    --black-opacity-: rgba(30, 30, 30, 0.60);
+    --white-:#FBFBFB;
+    --gray-100-: #E7E7E7;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'inter', sans-serif;
+    color: var(--black-);
+    background: linear-gradient(107.45deg, #FFFFFF 0.36%, #F0F0F0 47.16%, #E0E0E0 59.82%, #E4E4E4 100%);
+
+}
+
+.button{
+    all:unset;
+    background-color: var(--black-);
+    color: var(--white-);
+
+    padding: 0.938rem 1.25rem ;
+    border-radius: 1.5rem;
+    box-shadow: 0px 3px 8px 0px #00000040;
+
+}
