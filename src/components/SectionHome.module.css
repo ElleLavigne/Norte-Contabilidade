@@ -1,0 +1,42 @@
+.container{
+    margin-top: 8rem;
+    display: flex;
+    gap: 8.375rem;
+}
+.contentHome{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.contentText{
+    display: flex;
+    flex-direction: column;
+    max-width: 36.875rem;
+    width: 100%;
+    gap: 1.5rem;
+}
+.tag{
+    width: fit-content;
+    background-color: var(--gray-100-);
+    padding: 0.5rem ;
+    border-radius: 4px;
+}
+.tag h3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--blue-800-);
+}
+.title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.text{
+    color: var(--black-opacity-);
+    line-height: 2;
+    font-weight: 500;
+}
+.buttonBox{
+    display:flex ;
+    gap: 24px;
+}
+

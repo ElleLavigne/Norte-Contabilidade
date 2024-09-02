@@ -1,5 +1,6 @@
 import styles from './App.module.css'
 import { Header } from "./components/Header"
+import { SectionHome } from './components/SectionHome'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className={styles.container}>
 
     <Header/>
+    <SectionHome/>
     </div>
     
     </>
