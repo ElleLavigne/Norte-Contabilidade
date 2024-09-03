@@ -15,11 +15,16 @@
     width: 100%;
     gap: 1.5rem;
 }
+
 .tag{
     width: fit-content;
     background-color: var(--gray-100-);
     padding: 0.5rem ;
     border-radius: 4px;
+    animation: fadeIn forwards;
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-delay: 400ms;
 }
 .tag h3{
     font-size: 1rem;
@@ -29,14 +34,36 @@
 .title{
     font-size: 4rem;
     font-weight: 600;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+
+    
 }
 .text{
     color: var(--black-opacity-);
     line-height: 2;
     font-weight: 500;
+    animation: fadeIn forwards;
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-delay: 500ms;
 }
 .buttonBox{
     display:flex ;
     gap: 24px;
+    animation: fadeIn forwards;
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-delay: 800ms;
 }
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }

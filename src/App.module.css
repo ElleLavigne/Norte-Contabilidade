@@ -1,5 +1,19 @@
-.container{
-    max-width: 90rem;
-    width: 100%;
-    margin: 0 auto;
+.container {
+  max-width: 90rem;
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex;
+    flex-direction: column;
+    gap: 2rem */
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 23.75rem 23.75rem 23.75rem; */
+  align-items: center;
+  justify-content: center;
+  /* place-items: center; */
+  border: 1px solid red;
+  gap: 1.5rem;
 }
