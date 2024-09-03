@@ -24,7 +24,7 @@ export function SectionHome() {
             <button className={"button2"}>Começar agora</button>
           </div>
         </div>
-        <img src={img} alt="" />
+        <img className={styles.img1} src={img} alt="" />
       </div>
     </>
   );

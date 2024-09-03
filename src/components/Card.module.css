@@ -6,8 +6,9 @@
     max-width: 23.75rem;
     padding: 2rem 1rem;
     background-color: var(--white-);
-    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.060); 
+    box-shadow: 0px 4px 16px 0px rgba(120, 120, 120, 0.15); 
     border-radius: 8px;
+    border: 1px solid var(--gray-100-);
 }
 .iconPath{
     max-width: 2rem;
@@ -23,4 +24,5 @@
     color: var(--black-opacity-);
     font-size: 1rem;
     font-weight: 500;
+    line-height: 1.5rem;
 }

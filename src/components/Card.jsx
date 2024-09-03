@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 export function Card({ title, iconPath, text }) {
   return (
     <>
-
+   
     <div className={styles.card}>
         <div className={styles.iconPath}>
           <img src={iconPath} alt="" />

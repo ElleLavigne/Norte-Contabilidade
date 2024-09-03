@@ -6,10 +6,12 @@ import { SectionHome } from "./components/SectionHome";
 function App() {
   return (
     <>
+
       <div className={styles.container}>
         <Header />
         <SectionHome />
         <div className={styles.cardsContainer}>
+         
         <Card
           title={"Abertura e Regularização de Empresas"}
           iconPath={"/cash.svg"}
@@ -31,10 +33,18 @@ function App() {
             "Queremos ser o seu parceiro de confiança no que se trata de gestão contábil. A nossa equipe especializada vai lhe ajudar a alcançar o sucesso financeiro e simplificar a sua rotina contábil."
           }
         />
-
+  
         </div>
-   
+
       </div>
+
+      {/* <div className={styles.banner}>
+        <div className={styles.container}>
+          <h3>Comece agora a organizar <br />sua vida financeira.</h3>
+          <button className={'button2'}>Comece agora</button>
+          </div>
+        </div> */}
+
     </>
   );
 }
