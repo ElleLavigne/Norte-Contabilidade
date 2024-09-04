@@ -21,7 +21,7 @@ export function SectionHome() {
           </div>
           <div className={styles.buttonBox}>
             <button className={"button"}>Começar agora</button>
-            <button className={"button2"}>Começar agora</button>
+            <button className={"button2"}>Saiba mais</button>
           </div>
         </div>
         <img className={styles.img1} src={img} alt="" />

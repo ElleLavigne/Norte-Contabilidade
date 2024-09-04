@@ -19,6 +19,12 @@ body{
     color: var(--black-);
     background: linear-gradient(107.45deg, #FFFFFF 0.36%, #F0F0F0 47.16%, #E0E0E0 59.82%, #E4E4E4 100%);
 }
+.container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
 
 button{
     all:unset;
@@ -53,3 +59,10 @@ button{
 .button2:hover{
     background-color: var(--gray-100-);
 }
+
+@media (max-width: 1440px) {
+    .container {
+      padding: 0 1rem;
+    }
+   
+  }

@@ -4,12 +4,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .contentHome {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+ 
 }
 .contentText {
   display: flex;
@@ -27,7 +29,7 @@
   animation: fadeIn forwards;
   opacity: 0;
   animation-duration: 1.5s;
-  animation-delay: 400ms;
+ 
 }
 .tag h3 {
   font-size: 1rem;
@@ -37,8 +39,11 @@
 .title {
   font-size: 4rem;
   font-weight: 600;
-  animation: fadeIn;
+  animation: fadeIn forwards;
+  opacity: 0;
   animation-duration: 1.5s;
+  animation-delay: 500ms;
+ 
 }
 .text {
   color: var(--black-opacity-);
@@ -47,7 +52,7 @@
   animation: fadeIn forwards;
   opacity: 0;
   animation-duration: 1.5s;
-  animation-delay: 500ms;
+  animation-delay: 700ms;
 }
 .buttonBox {
   display: flex;
@@ -55,7 +60,7 @@
   animation: fadeIn forwards;
   opacity: 0;
   animation-duration: 1.5s;
-  animation-delay: 800ms;
+  animation-delay: 900ms;
 }
 
 @keyframes fadeIn {
@@ -69,22 +74,24 @@
   }
 }
 
-/* .img1{
-    width: 100%;
-} */
+.img1{
+  animation: fadeIn forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-delay: 500ms;
+  /* box-shadow: 0px 3px 26px 0px #00000040; */
+}
 
 @media (max-width: 780px) {
     .img1 {
       display: none;
     }
-    .container{
-      padding: 0 1rem;
-    }
+   
   }
-  @media (max-width: 1350px) {
+  /* @media (max-width: 1350px) {
     .img1 {
       
       
     }
    
-  }
+  } */
