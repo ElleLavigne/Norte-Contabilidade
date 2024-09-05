@@ -1,5 +1,5 @@
 import styles from "./SectionHome.module.css";
-import img from "../assets/img1.png";
+import img from '../../assets/img1.png'
 
 export function SectionHome() {
   return (
@@ -11,7 +11,7 @@ export function SectionHome() {
               {" "}
               <h3>Contas em ordem, negócios em alta.</h3>
             </div>
-            <div className={styles.title}>Excelência com transparência.</div>
+            <div className={styles.title}>Excelência com transparência</div>
             <div className={styles.text}>
               Entregamos assessoria contábil com transparência e organização
               para manter sua contabilidade sempre em dia. Promovemos todas as

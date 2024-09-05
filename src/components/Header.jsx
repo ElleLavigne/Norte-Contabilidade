@@ -12,7 +12,7 @@ export function Header(){
                 <a href="#">Localização</a>
 
             </div>
-           <button className={'button'}>Fale Conosco</button>
+           <button className={'button sm-hidden'}>Fale Conosco</button>
         </header>
         
         </>

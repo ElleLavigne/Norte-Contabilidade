@@ -1,6 +1,7 @@
 .sectionService{
+  max-width: 100%;
     background-color: var(--white-);
-    padding-top: 2.5rem;
+    padding: 2.5rem;
 }
 
 .cardsContainer {

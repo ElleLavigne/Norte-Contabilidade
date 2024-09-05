@@ -6,7 +6,7 @@
 
 :root{
     --black-: #1E1E1E;
-    --blue-800-:#1B4A75;
+    --blue-800-:#25586F;
     --black-opacity-: rgba(30, 30, 30, 0.60);
     --white-:#FBFBFB;
     --gray-100-: #E7E7E7;
@@ -42,6 +42,14 @@ button{
     transition: 500ms;
 
 }
+  @media (max-width: 425px) {
+    .button {
+        font-size: 0.875rem;
+    }
+    .sm-hidden{
+        display: none;
+    }
+  }
 .button:hover{
     background-color: var(--black-opacity-);
 }
