@@ -1,7 +1,7 @@
 import styles from "./AboutUs.module.css"
 import img from "../../assets/img2.png"
 import icon from "../../../public/check.svg"
-import aboutUs from "../../../public/aboutUs.svg"
+import team from "../../../public/team.svg"
 
 export function AboouUs() {
   return (
@@ -9,7 +9,7 @@ export function AboouUs() {
       <div className={styles.aboutUS}>
         <div className={"container"}>
           <div className={styles.content}>
-            <img src={aboutUs} alt="" />
+            <img className={styles.team} src={team} alt="" />
             <div className={styles.contentText}>
               <h3>Sobre Nós</h3>
               <h2>Focados na simplificação de processos</h2>

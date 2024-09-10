@@ -4,6 +4,7 @@ import { Header } from "./components/Header"
 import { SectionHome } from "./components/Sections/SectionHome"
 import { SectionService } from "./components/Sections/SectionService"
 import { Footer } from "./components/Footer"
+import { Location } from "./components/Sections/Location"
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       </div>
       <SectionService />
       <AboouUs />
-      <Footer/>
+      <Location/>
+      <Footer />
     </>
   )
 }

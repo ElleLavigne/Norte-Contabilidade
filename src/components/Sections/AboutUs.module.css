@@ -37,17 +37,17 @@ p{
   color: var(--black-opacity-);
 }
 
-.img{
+.team{
   max-width: 39.875rem;
 }
 @media (max-width: 1350px) {
-    .img {
+    .team {
       width: 500px;
     }
   }
 
   @media (max-width: 1200px) {
-    .img {
+    .team {
       display: none;
     }
   }
