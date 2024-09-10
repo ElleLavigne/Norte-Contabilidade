@@ -1,4 +1,4 @@
-import { AnimationFadeIn } from "../AnimationFadeIn"
+import { Animation } from "../Animation"
 import { Card } from "../Card"
 import styles from "./SectionService.module.css"
 
@@ -9,15 +9,15 @@ export function SectionService() {
         <div className={"container"}>
           <div className={styles.content}>
             <div className={styles.contentTitle}>
-              <AnimationFadeIn animation={"fadeUp"}>
+              <Animation animation={"fadeUp"}>
                 <strong className={styles.tag}>Serviços</strong>
-              </AnimationFadeIn>
+              </Animation>
 
-              <AnimationFadeIn animation={"fadeUp"}>
+              <Animation animation={"fadeUp"}>
                 <h2 className={styles.title}>
                   Serviços que providenciamos para você
                 </h2>
-              </AnimationFadeIn>
+              </Animation>
 
               <h3 className={styles.subTitle}>
                 Entregamos serviços de qualidade com transparência para

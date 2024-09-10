@@ -1,5 +1,5 @@
 import ScrollAnimation from "react-animate-on-scroll"
-export function AnimationFadeIn({ children, animation = 'fadeIn' }) {
+export function Animation({ children, animation = "fadeIn" }) {
   return (
     <>
       <ScrollAnimation

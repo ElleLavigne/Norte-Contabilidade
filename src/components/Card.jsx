@@ -1,10 +1,10 @@
-import { AnimationFadeIn } from "./AnimationFadeIn";
-import styles from "./Card.module.css";
+import { Animation } from "./Animation"
+import styles from "./Card.module.css"
 
 export function Card({ title, iconPath, text }) {
   return (
     <>
-      <AnimationFadeIn animation={'fadeUp'}>
+      <Animation animation={"fadeUp"}>
         <div className={styles.card}>
           <div className={styles.iconPath}>
             <img src={iconPath} alt="" />
@@ -13,7 +13,7 @@ export function Card({ title, iconPath, text }) {
 
           <p className={styles.text}>{text}</p>
         </div>
-      </AnimationFadeIn>
+      </Animation>
     </>
   )
 }
