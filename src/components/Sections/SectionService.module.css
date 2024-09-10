@@ -1,7 +1,7 @@
 .sectionService{
   max-width: 100%;
     background-color: var(--white-);
-    padding: 2.5rem;
+   padding: 5rem 0;
 }
 
 .cardsContainer {
@@ -13,12 +13,36 @@
     /* place-items: center; */
     gap: 1.5rem;
   }
+  .content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+  }
+  .contentTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+    .title{
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--black-);
+      text-align: center;
 
-.title{
+    }
+    .subTitle{
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--black-opacity-);
+      text-align: center;
+    }
+/* .title{
     color: var(--black-);
     font-size: 2rem;
     font-weight: 600;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--gray-100-);
     margin-bottom: 2rem;
-  }
+  } */

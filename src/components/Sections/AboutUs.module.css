@@ -5,7 +5,9 @@
   padding: 2rem 0;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 5rem 0;
 }
 .contentText{
   max-width: 39.75rem;
@@ -13,6 +15,8 @@
 
   display: flex;
   flex-direction: column;
+ 
+  
   gap: 1.5rem;
 }
 

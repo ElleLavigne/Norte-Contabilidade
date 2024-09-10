@@ -7,7 +7,17 @@ export function SectionService() {
       <div className={styles.sectionService}>
         <div className={"container"}>
           <div className={styles.content}>
-            <div className={styles.title}>Nossos Serviços</div>
+            <div className={styles.contentTitle}>
+              <strong className={styles.tag}>Serviços</strong>
+              <h2 className={styles.title}>
+                Serviços que providenciamos para você
+              </h2>
+              <h3 className={styles.subTitle}>
+                Entregamos serviços de qualidade com transparência para
+                providenciar <br />
+                melhor experiência para você e sua empresa.{" "}
+              </h3>
+            </div>
             <div className={styles.cardsContainer}>
               <Card
                 title={"Abertura e Regularização de Empresas"}
