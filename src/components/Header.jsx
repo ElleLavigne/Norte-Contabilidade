@@ -7,9 +7,9 @@ export function Header(){
         <header className={styles.header}>
             <img src={logo} alt="" />
             <div className={styles.nav}>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Serviços</a>
-                <a href="#">Localização</a>
+                <a href="#AboutUs">Sobre Nós</a>
+                <a href="#Service">Serviços</a>
+                <a href="#Location">Localização</a>
 
             </div>
            <button className={'button sm-hidden'}>Fale Conosco</button>

@@ -7,7 +7,7 @@ import { Animation } from "../Animation"
 export function AboouUs() {
   return (
     <>
-      <div className={styles.aboutUS}>
+      <div className={styles.aboutUS} id="AboutUs">
         <div className={"container"}>
           <div className={styles.content}>
             <Animation>

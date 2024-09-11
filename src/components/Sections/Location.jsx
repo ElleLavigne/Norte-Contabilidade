@@ -5,7 +5,7 @@ import styles from "./Location.module.css"
 export function Location() {
   return (
     <>
-      <div className={styles.location}>
+      <div className={styles.location} id="Location" >
         <div className={"container"}>
           <div className={styles.content}>
             <Animation>
