@@ -1,16 +1,20 @@
 .container {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
   gap: 1rem;
-  padding-bottom: 2.5rem;
+  position: relative;
+  /* overflow: hidden; */
+  /* padding-bottom: 2.5rem; */
 }
 
 .contentHome {
   
   display: flex;
   flex-direction: column;
+  height: fit-content;
   gap: 3rem;
  
 }
@@ -64,6 +68,60 @@
   animation-delay: 900ms;
 }
 
+.hero::before{
+    content: '';
+    display: block;
+    max-width: 624px;
+    width: 50vw;
+    aspect-ratio: 1;
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: transparent;
+    border: 10px solid var(--gray-400-);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: decrescendo 2.5s alternate infinite ease-in;
+    -moz-animation: decrescendo 2.5s alternate infinite ease-in;
+    animation: decrescendo 2.5s alternate infinite ease-in;
+
+}
+.hero::after{
+    content: '';
+    display: block;
+    max-width: 537px;
+    width: 50vw;
+    aspect-ratio: 1;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    bottom: 0px;
+    background-color: var(--gray-400-);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: crescendo 2.5s alternate infinite ease-in;
+    -moz-animation: crescendo 2.5s alternate infinite ease-in;
+    animation: crescendo 2.5s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(1.1);
+}
+  100%{
+    transform: scale(1);
+  }
+}
+@keyframes decrescendo {
+  0% {
+    transform: scale(1.1);
+}
+  100%{
+    transform: scale(1);
+  }
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -80,6 +138,7 @@
   opacity: 0;
   animation-duration: 1.5s;
   animation-delay: 500ms;
+  width: 580px;
   /* box-shadow: 0px 3px 26px 0px #00000040; */
 }
 

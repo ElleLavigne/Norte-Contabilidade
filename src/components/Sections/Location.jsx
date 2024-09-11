@@ -17,9 +17,11 @@ export function Location() {
                 </p>
               </div>
             </Animation>
-            <div className={styles.map}>
-              <Maps />
-            </div>
+  
+              <div className={styles.map}>
+                <Maps />
+              </div>
+            
           </div>
         </div>
       </div>

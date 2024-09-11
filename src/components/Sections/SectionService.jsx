@@ -18,12 +18,13 @@ export function SectionService() {
                   Serviços que providenciamos para você
                 </h2>
               </Animation>
-
-              <h3 className={styles.subTitle}>
-                Entregamos serviços de qualidade com transparência para
-                providenciar <br />
-                melhor experiência para você e sua empresa.{" "}
-              </h3>
+              <Animation animation={"fadeUp"}>
+                <h3 className={styles.subTitle}>
+                  Entregamos serviços de qualidade com transparência para
+                  providenciar <br />
+                  melhor experiência para você e sua empresa.{" "}
+                </h3>
+              </Animation>
             </div>
             <div className={styles.cardsContainer}>
               <Card
