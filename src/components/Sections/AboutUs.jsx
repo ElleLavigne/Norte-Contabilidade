@@ -10,12 +10,10 @@ export function AboouUs() {
       <div className={styles.aboutUS}>
         <div className={"container"}>
           <div className={styles.content}>
-              <Animation>
-
-              <img className={styles.team} src={team} alt="" />
-              </Animation>
             <Animation>
-
+              <img className={styles.team} src={team} alt="" />
+            </Animation>
+            <Animation>
               <div className={styles.contentText}>
                 <h3>Sobre Nós</h3>
 
@@ -29,8 +27,8 @@ export function AboouUs() {
                 </p>
 
                 <p>
-                  Estamos aqui para ser mais do que prestadores de serviço;
-                  somos parceiros estratégicos na jornada de cada cliente.
+                  Estamos aqui para facilitar seu negócio e impulsionar seus
+                  lucros!
                 </p>
 
                 <div className={styles.buttonBox}>

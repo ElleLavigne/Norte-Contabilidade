@@ -13,10 +13,8 @@ export function SectionHome() {
             </div>
             <div className={styles.title}>Excelência com transparência</div>
             <div className={styles.text}>
-              Entregamos assessoria contábil com transparência e organização
-              para manter sua contabilidade sempre em dia. Promovemos todas as
-              informações para que você tenha maior clareza e confiança na hora
-              da tomada de decisões.
+              Maiores lucros e mais tempo para você cuidar do seu negócio. Te
+              ajudamos a chegar no seu objetivo.
             </div>
           </div>
           <div className={styles.buttonBox}>
@@ -25,8 +23,7 @@ export function SectionHome() {
           </div>
         </div>
         <div className={styles.hero}>
-
-        <img className={styles.img1} src={img} alt="" />
+          <img className={styles.img1} src={img} alt="" />
         </div>
       </div>
     </>

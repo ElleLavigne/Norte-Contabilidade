@@ -52,7 +52,7 @@
 }
 .text {
   color: var(--black-opacity-);
-  line-height: 2;
+  /* line-height: 2; */
   font-weight: 500;
   animation: fadeIn forwards;
   opacity: 0;
@@ -96,7 +96,7 @@
     aspect-ratio: 1;
     position: absolute;
     z-index: -1;
-    right: 0px;
+    right: 55px;
     bottom: 0px;
     background-color: var(--gray-400-);
     -webkit-border-radius: 50%;
