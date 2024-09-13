@@ -18,7 +18,11 @@ export function SectionHome() {
             </div>
           </div>
           <div className={styles.buttonBox}>
-            <button className={"button"}>Começar agora</button>
+               <button className={"button"}>
+            <a href="https://wa.link/nu8o1o"
+            target='_blank'
+            >Comece agora</a>
+          </button>
             {/* <button className={"button2"}>Saiba mais</button> */}
           </div>
         </div>

@@ -11,9 +11,6 @@ export function AboouUs() {
         <div className={"container"}>
           <div className={styles.content}>
             <Animation>
-              <img className={styles.team} src={team} alt="" />
-            </Animation>
-            <Animation>
               <div className={styles.contentText}>
                 <h3>Sobre Nós</h3>
 
@@ -32,9 +29,16 @@ export function AboouUs() {
                 </p>
 
                 <div className={styles.buttonBox}>
-                  <button className={"button"}>Entre em contato</button>
+                  <button className={"button"}>
+                    <a href="https://wa.link/nu8o1o" target="_blank">
+                      Entre em contato
+                    </a>
+                  </button>
                 </div>
               </div>
+            </Animation>
+            <Animation animation={"fadeUp"}>
+              <img className={styles.team} src={team} alt="" />
             </Animation>
           </div>
         </div>

@@ -7,10 +7,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 5rem 0;
+  padding: 5rem;
 }
 .contentText{
-  max-width: 39.75rem;
+  max-width: 29.563rem;
   width: 100%;
 
   display: flex;
@@ -40,18 +40,26 @@ p{
 .team{
   max-width: 39.875rem;
 }
-@media (max-width: 1350px) {
-    .team {
-      width: 500px;
+@media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      padding: 3rem 1rem;
+      gap: 4rem;
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1024px) {
     .team {
-      display: none;
+      width: 380px;
+      /* display: none; */
     }
   }
-
+ @media (max-width: 375px) {
+    .team {
+      width: 280px;
+      /* display: none; */
+    }
+  }
 
 .topic{
   display: flex;

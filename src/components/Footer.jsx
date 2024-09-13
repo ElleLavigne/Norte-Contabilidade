@@ -20,7 +20,9 @@ export function Footer() {
 
             <div className={styles.headline}>
               <div className={styles.address}>
-                <p>{CONFIG.address}</p>
+                <p>
+                  <a href="https://wa.link/nu8o1o">{CONFIG.address}</a>
+                </p>
               </div>
               <div className={styles.number}>
                 <img className={styles.iconWapp} src={iconWapp} alt="" />
