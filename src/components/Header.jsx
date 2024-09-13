@@ -11,11 +11,10 @@ export function Header(){
             <a href="#Service">Serviços</a>
             <a href="#Location">Localização</a>
           </div>
-          <button className={"button sm-hidden"}>
-            <a href="https://wa.link/nu8o1o"
-            target='_blank'
-            >Fale Conosco</a>
-          </button>
+
+          <a href="https://wa.link/nu8o1o" target="_blank">
+            <button className={"button sm-hidden"}> Fale Conosco</button>
+          </a>
         </header>
       </>
     )

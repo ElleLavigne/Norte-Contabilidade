@@ -19,7 +19,9 @@
   
   gap: 1.5rem;
 }
-
+a{
+  text-decoration: none;
+}
 h3{
   color: var(--blue-800-);
   font-size: 1rem;

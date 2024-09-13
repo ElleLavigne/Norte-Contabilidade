@@ -1,7 +1,7 @@
 import styles from "./AboutUs.module.css"
 import img from "../../assets/img2.png"
 import icon from "../../../public/check.svg"
-import team from "../../../public/team.svg"
+// import team from "../../../public/team.svg"
 import { Animation } from "../Animation"
 
 export function AboouUs() {
@@ -29,16 +29,14 @@ export function AboouUs() {
                 </p>
 
                 <div className={styles.buttonBox}>
-                  <button className={"button"}>
-                    <a href="https://wa.link/nu8o1o" target="_blank">
-                      Entre em contato
-                    </a>
-                  </button>
+                  <a href="https://wa.link/nu8o1o" target="_blank">
+                    <button className={"button"}> Entre em contato</button>
+                  </a>
                 </div>
               </div>
             </Animation>
             <Animation animation={"fadeUp"}>
-              <img className={styles.team} src={team} alt="" />
+              <img className={styles.team} src={'/team.svg'} alt="" />
             </Animation>
           </div>
         </div>
