@@ -36,7 +36,11 @@ button {
   all: unset;
   display: block;
 }
-
+.button a{
+  text-decoration: none;
+  color: var(--white-);
+  
+}
 .button {
   background-color: var(--black-);
   color: var(--white-);
@@ -45,6 +49,7 @@ button {
   border-radius: 1.5rem;
   box-shadow: 0px 3px 8px 0px #00000040;
   transition: 500ms;
+  cursor: pointer;
 }
 @media (max-width: 425px) {
   .button {

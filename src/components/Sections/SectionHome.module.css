@@ -11,17 +11,15 @@
 }
 
 .contentHome {
-  
   display: flex;
   flex-direction: column;
   height: fit-content;
   gap: 3rem;
- 
 }
 .contentText {
   display: flex;
   flex-direction: column;
-  max-width: 36.875rem;
+  max-width: 29.813rem;
   width: 100%;
   gap: 1.5rem;
 }
@@ -34,7 +32,6 @@
   animation: fadeIn forwards;
   opacity: 0;
   animation-duration: 1.5s;
- 
 }
 .tag h3 {
   font-size: 1rem;
@@ -48,7 +45,6 @@
   opacity: 0;
   animation-duration: 1.5s;
   animation-delay: 500ms;
- 
 }
 .text {
   color: var(--black-opacity-);
@@ -68,57 +64,67 @@
   animation-delay: 900ms;
 }
 
-.hero::before{
-    content: '';
-    display: block;
-    max-width: 624px;
-    width: 50vw;
-    aspect-ratio: 1;
-    z-index: -2;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    background-color: transparent;
-    border: 10px solid var(--gray-400-);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-animation: decrescendo 2.5s alternate infinite ease-in;
-    -moz-animation: decrescendo 2.5s alternate infinite ease-in;
-    animation: decrescendo 2.5s alternate infinite ease-in;
-
+.hero::before {
+  content: "";
+  display: block;
+  max-width: 624px;
+  width: 50vw;
+  aspect-ratio: 1;
+  z-index: -2;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+  border: 10px solid var(--gray-400-);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: decrescendo 2.5s alternate infinite ease-in;
+  -moz-animation: decrescendo 2.5s alternate infinite ease-in;
+  animation: decrescendo 2.5s alternate infinite ease-in;
 }
-.hero::after{
-    content: '';
-    display: block;
-    max-width: 537px;
-    width: 50vw;
-    aspect-ratio: 1;
-    position: absolute;
-    z-index: -1;
-    right: 55px;
-    bottom: 0px;
-    background-color: var(--gray-400-);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-animation: crescendo 2.5s alternate infinite ease-in;
-    -moz-animation: crescendo 2.5s alternate infinite ease-in;
-    animation: crescendo 2.5s alternate infinite ease-in;
+.hero::after {
+  content: "";
+  display: block;
+  max-width: 537px;
+  width: 50vw;
+  aspect-ratio: 1;
+  position: absolute;
+  z-index: -1;
+  right: 55px;
+  bottom: 0px;
+  background-color: var(--gray-400-);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: crescendo 2.5s alternate infinite ease-in;
+  -moz-animation: crescendo 2.5s alternate infinite ease-in;
+  animation: crescendo 2.5s alternate infinite ease-in;
+}
+@media (max-width: 1024px) {
+  .hero::before {
+    width: 350px;
+    bottom: 30px;
+  }
+  .hero::after {
+    width: 290px;
+    bottom: 30px;
+    right: 40px;
+  }
 }
 @keyframes crescendo {
   0% {
     transform: scale(1.1);
-}
-  100%{
+  }
+  100% {
     transform: scale(1);
   }
 }
 @keyframes decrescendo {
   0% {
     transform: scale(1.1);
-}
-  100%{
+  }
+  100% {
     transform: scale(1);
   }
 }
@@ -133,7 +139,7 @@
   }
 }
 
-.img1{
+.img1 {
   animation: fadeIn forwards;
   opacity: 0;
   animation-duration: 1.5s;
@@ -142,10 +148,13 @@
   /* box-shadow: 0px 3px 26px 0px #00000040; */
 }
 
-@media (max-width: 1040px) {
-    .img1 {
-      display: none;
-    }
-   
+@media (max-width: 768px) {
+  .img1 {
+    display: none;
   }
- 
+}
+@media (max-width: 1024px) {
+  .img1 {
+    width: 400px;
+  }
+}
